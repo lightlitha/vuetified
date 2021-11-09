@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar class="pr-15 pl-15">
+    <v-app-bar flat class="pr-15 pl-15">
       <v-toolbar-title>{{ logo.name }}</v-toolbar-title>
       <v-spacer />
       <span v-for="(item, k) in links" :key="k">
